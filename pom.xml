@@ -5,9 +5,9 @@
   <parent>
     <groupId>ru.skogmark</groupId>
     <artifactId>skogmark-parent-pom</artifactId>
-    <version>1.4</version>
+    <version>1.5.0</version>
   </parent>
-  <version>1.4.3</version>
+  <version>1.4.4</version>
   <modelVersion>4.0.0</modelVersion>
   <artifactId>skogmark-boot</artifactId>
   <name>Skogmark-Boot</name>
@@ -38,6 +38,19 @@
       <groupId>com.jayway.jsonpath</groupId>
       <artifactId>json-path</artifactId>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>ru.skogmark</groupId>
+      <artifactId>skogmark-common</artifactId>
+      <version>1.5.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-orm</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
     </dependency>
   </dependencies>
   <build>
