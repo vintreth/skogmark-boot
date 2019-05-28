@@ -8,6 +8,9 @@
     <version>1.5.1-SNAPSHOT</version>
   </parent>
   <version>1.4.5-SNAPSHOT</version>
+  <properties>
+    <javax.activation.version>1.2.0</javax.activation.version>
+  </properties>
   <modelVersion>4.0.0</modelVersion>
   <artifactId>skogmark-boot</artifactId>
   <name>Skogmark-Boot</name>
@@ -51,6 +54,11 @@
     <dependency>
       <groupId>org.postgresql</groupId>
       <artifactId>postgresql</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.sun.activation</groupId>
+      <artifactId>javax.activation</artifactId>
+      <version>${javax.activation.version}</version>
     </dependency>
   </dependencies>
   <build>
