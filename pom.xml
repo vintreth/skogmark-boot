@@ -5,9 +5,9 @@
   <parent>
     <groupId>ru.skogmark</groupId>
     <artifactId>skogmark-parent-pom</artifactId>
-    <version>1.5.1-SNAPSHOT</version>
+    <version>1.6.1-SNAPSHOT</version>
   </parent>
-  <version>1.4.5-SNAPSHOT</version>
+  <version>1.4.6-SNAPSHOT</version>
   <properties>
     <javax.activation.version>1.2.0</javax.activation.version>
   </properties>
@@ -45,7 +45,7 @@
     <dependency>
       <groupId>ru.skogmark</groupId>
       <artifactId>skogmark-common</artifactId>
-      <version>1.5.2-SNAPSHOT</version>
+      <version>1.5.3-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
